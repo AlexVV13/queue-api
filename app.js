@@ -21,6 +21,6 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 
-app.use('/api', rideRoutes);
+app.use('/v1', rideRoutes);
 
 export default app;
