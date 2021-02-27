@@ -1,0 +1,32 @@
+{
+  "name": "queue-api",
+  "version": "1.0.0",
+  "description": "Backend for react-app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon start server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVV13/queue-api.git"
+  },
+  "keywords": [
+    "queue",
+    "themeparks"
+  ],
+  "author": "AlexVV13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexVV13/queue-api/issues"
+  },
+  "homepage": "https://github.com/AlexVV13/queue-api#readme",
+  "dependencies": {
+    "@alexvv13/tpapi": "^1.0.24",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase-functions": "^3.13.2",
+    "http": "0.0.1-security",
+    "mongoose": "^5.11.18"
+  }
+}

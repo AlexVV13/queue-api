@@ -1,0 +1,9 @@
+#ENV FILES
+.ENV
+
+#node modules and db
+/node_modules
+/db.cache
+
+#testfiles
+/test.js
